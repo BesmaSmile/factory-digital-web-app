@@ -1,0 +1,15 @@
+.login {
+    width: 350px;
+    .field {
+        margin: 15px 0;
+    }
+    .error {
+        height: 12px;
+        margin-top: 5px;
+        color: red;
+        font-size: 12px;
+    }
+    button {
+        margin-top: 30px;
+    }
+}
