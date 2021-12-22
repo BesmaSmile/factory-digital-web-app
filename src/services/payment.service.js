@@ -11,7 +11,6 @@ const instance = axios.create({
 });
 
 function loadPayments(token) {
-  console.log(token);
   return instance.get('/payment/get_all', {
     headers: { Authorization: `Bearer ${token}` },
   }).catch((error) => {

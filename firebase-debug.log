@@ -1,0 +1,13 @@
+[debug] [2021-12-22T07:19:09.416Z] ----------------------------------------------------------------------
+[debug] [2021-12-22T07:19:09.427Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-12-22T07:19:09.430Z] CLI Version:   10.0.1
+[debug] [2021-12-22T07:19:09.433Z] Platform:      win32
+[debug] [2021-12-22T07:19:09.435Z] Node Version:  v16.13.0
+[debug] [2021-12-22T07:19:09.449Z] Time:          Wed Dec 22 2021 08:19:09 GMT+0100 (UTC+01:00)
+[debug] [2021-12-22T07:19:09.450Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-22T07:19:09.762Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-22T07:19:09.767Z] > authorizing via signed-in user (db_rabia_cherif@esi.dz)
+[debug] [2021-12-22T07:19:09.768Z] [iam] checking project factory-digital-web-app for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-22T07:19:09.784Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/factory-digital-web-app:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

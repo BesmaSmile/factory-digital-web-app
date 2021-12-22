@@ -15,7 +15,8 @@ const Home = () => {
     (payment) => payment.reimbursements.reduce((r1, r2) => r1 + r2, 0),
   ).reduce((totalR1, totalR2) => totalR1 + totalR2, 0);
 
-  const reimbursementsAvg = Math.round(totalReimbursements / reimbursementsCount);
+  const reimbursementsAvg = totalReimbursements > 0
+    ? Math.round(totalReimbursements / reimbursementsCount) : 0;
 
   const dispatch = useDispatch();
   const loadPayments = useCallback(actions.loadPayments(dispatch), [dispatch]);
