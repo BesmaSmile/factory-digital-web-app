@@ -16,6 +16,8 @@ function login(credentials) {
       switch (error.response?.data?.error) {
         case 'incorrect_credentials':
           throw new Error('Nom d\'utilisateur ou mot de passe incorrect !');
+        case 'unauthorized_user':
+          throw new Error('un utilisateur simple ne peut pas accéder au tableau de bord !');
         default:
           throw new Error('Echec de connexion !');
       }
